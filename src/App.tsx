@@ -10,7 +10,6 @@ function App() {
         <NavBar/>
       </div>  
       <div className="App_body">
-        <Body/>
       </div>
     </div>
   );
