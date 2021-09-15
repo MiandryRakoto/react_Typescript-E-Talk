@@ -3,7 +3,7 @@ section{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: url(../images/6.jpg);
+    background: url(./6.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
