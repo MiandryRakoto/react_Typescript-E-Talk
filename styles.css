@@ -1,0 +1,99 @@
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(../images/6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    padding: 50px;
+}
+.container{
+    position: relative;
+    width: calc(100% - 100px);
+    min-height: calc(100vh - 280px);
+    min-height: 300px;
+    background: rgba(255, 255, 255, 0.6);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.09);
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+header{
+    position: absolute;
+    top: -40px;
+    right: 20px;
+    left: 20px;
+    padding: 20px 20px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.05);
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+}
+header .titre{
+    color: #8a2435;
+    font-weight: 800;
+    text-decoration: none;
+    font-size: 2em;
+    margin-right: 80px;
+}
+header ul{
+    display: flex;
+}
+header ul li{
+    list-style: none;
+    margin: 0 10px;
+}
+header ul li a{
+    text-decoration: none;
+    font-weight: 500;
+    color: #8a2435;
+    padding: 8px 10px;
+    border-radius: 25px;
+}
+header ul li a:hover{
+    transition: all 0.3s ease 0.2s;
+    background: #fff;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+header ul li a i{
+    margin-right: 10px;
+}
+.search input{
+    border-radius: 10px;
+    border-color: #8a2435;
+    margin-right: 110px;
+    width: 300px;
+}
+.search i{
+    margin-right: 10px;
+    font-size: 1.10em;
+    color: #8a2435;
+    margin-left: 25px;
+    
+}
+button {
+    border-radius: 20px;
+    border-color: #8a2435;
+    background-color: #8a2435;
+    opacity: 0.8;
+    cursor: pointer;
+    transition: all 0.3s ease 0.3s;
+}
+button:hover {
+    transition: all 0.3s ease 0.1s;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    border-collapse: separate;
+    opacity: 1;
+    background-color: #8a2435;
+}
