@@ -7,7 +7,7 @@ const Body = () => {
                 
             </div>
             <div className="Body_center">
-
+                <h3>Rakotoarivelo Miandry IMTICIA3 N12</h3>
             </div>
             <div className="Body_left">
 
